@@ -24,3 +24,15 @@ Given patient comments on treatment, can we predict the effectiveness of the tre
     * Acc: .90 and F1: .94 
     * Acc: .86 and F1: .92
     * Baseline accuracy of guessing all as Effective: .86
+
+
+### Predicting on the Test Data
+
+* change labels to 1 and 0
+* remove stop words and punctuation
+* lemmatize the text
+* use tfidf to transform the data
+* Random Forest and GradientBoost Test Dataset results
+    * Acc: .88 and F1: .93 
+    * Acc: .86 and F1: .92
+
