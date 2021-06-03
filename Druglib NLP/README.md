@@ -37,3 +37,12 @@ Given patient comments on treatment, can we predict the effectiveness of the tre
     * Acc: .86 and F1: .92
 
 ### Results and Takeaways
+
+The models predicted as equally well on the Test Dataset as they did on testing data used to evaluate the model.
+
+In both the Training Dataset and the Testing Data, the two most common words were the same:
+   * Effective: 'pain' and 'taking'
+   * Non-effective: 'benefits' and 'none'
+   
+
+The 'Non-effective' class was a relatively small percentage in both datasets. Although the F1 score came back high, tuning should take into account the class imbalance.
