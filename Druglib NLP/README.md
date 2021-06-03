@@ -26,7 +26,7 @@ Given patient comments on treatment, can we predict the effectiveness of the tre
     * Baseline accuracy of guessing all as Effective: .86
 
 
-### Predicting on the Test Data
+### Predicting on the Test Dataset
 
 * change labels to 1 and 0
 * remove stop words and punctuation
@@ -36,3 +36,4 @@ Given patient comments on treatment, can we predict the effectiveness of the tre
     * Acc: .88 and F1: .93 
     * Acc: .86 and F1: .92
 
+### Results and Takeaways
